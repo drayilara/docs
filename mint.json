@@ -69,11 +69,14 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": ["api-reference/endpoint/send"]
+      "group": "Endpoints",
+      "pages": [
+        "api-reference/endpoint/send-an-email",
+        "api-reference/endpoint/enrich-contact-icypeas"
+      ]
     }
   ],
-  "openapi": "./openapi.json",
+  "openapi": ["./openapi/send-mail.json", "./openapi/icypeas.json"],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
     "github": "https://github.com/mintlify",

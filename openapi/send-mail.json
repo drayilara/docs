@@ -7,11 +7,11 @@
   },
   "servers": [
     {
-      "url": "https://prosp.ai/api/"
+      "url": "https://prosp.ai/api"
     }
   ],
   "paths": {
-    "mail-engine/send-mail": {
+    "/mail-engine/send-mail": {
       "post": {
         "summary": "Send an email",
         "requestBody": {
