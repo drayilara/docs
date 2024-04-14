@@ -11,9 +11,9 @@
     }
   ],
   "paths": {
-    "/enrichment-services/drop-contact": {
+    "/enrichment-services/findy-mail": {
       "post": {
-        "summary": "Enrich - Drop contact",
+        "summary": "Enrich - Findy mail",
         "requestBody": {
           "required": true,
           "content": {

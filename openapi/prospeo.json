@@ -11,9 +11,9 @@
     }
   ],
   "paths": {
-    "/enrichment-services/drop-contact": {
+    "/enrichment-services/prospeo": {
       "post": {
-        "summary": "Enrich - Drop contact",
+        "summary": "Enrich - Prospeo",
         "requestBody": {
           "required": true,
           "content": {

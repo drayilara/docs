@@ -72,11 +72,20 @@
       "group": "Endpoints",
       "pages": [
         "api-reference/endpoint/send-an-email",
-        "api-reference/endpoint/enrich-contact-icypeas"
+        "api-reference/endpoint/enrich-contact-icypeas",
+        "api-reference/endpoint/enrich-drop-contact",
+        "api-reference/endpoint/enrich-prospeo",
+        "api-reference/endpoint/enrich-findy-mail"
       ]
     }
   ],
-  "openapi": ["./openapi/send-mail.json", "./openapi/icypeas.json"],
+  "openapi": [
+    "./openapi/send-mail.json",
+    "./openapi/icypeas.json",
+    "./openapi/drop-contact.json",
+    "./openapi/prospeo.json",
+    "./openapi/findy-mail.json"
+  ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
     "github": "https://github.com/mintlify",
